@@ -1,0 +1,122 @@
+{
+	"info": {
+		"_postman_id": "f1f35e27-ce00-41bf-a6b7-1f5f181db272",
+		"name": "TakeHome Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Find Path Local",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7129/api/knightpath?source=A6&target=B5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"knightpath"
+					],
+					"query": [
+						{
+							"key": "source",
+							"value": "A6"
+						},
+						{
+							"key": "target",
+							"value": "B5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Return Result Local",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7129/api/knightpath?operationId=bd9ccf42-17a5-4e35-8126-74310ee6091b",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7129",
+					"path": [
+						"api",
+						"knightpath"
+					],
+					"query": [
+						{
+							"key": "operationId",
+							"value": "bd9ccf42-17a5-4e35-8126-74310ee6091b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Find Path Online",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://chessknightproblem.azurewebsites.net/knightpath?source=A6&target=B5",
+					"protocol": "https",
+					"host": [
+						"chessknightproblem",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"knightpath"
+					],
+					"query": [
+						{
+							"key": "source",
+							"value": "A6"
+						},
+						{
+							"key": "target",
+							"value": "B5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Return Result Online",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://knightpath.azurewebsites.net/api/knightpath?operationId=3881f384-95c1-4148-8822-45a23630e934",
+					"protocol": "https",
+					"host": [
+						"knightpath",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"knightpath"
+					],
+					"query": [
+						{
+							"key": "operationId",
+							"value": "3881f384-95c1-4148-8822-45a23630e934"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
