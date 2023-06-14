@@ -33,7 +33,6 @@ POST https://[...]/knightpath
 query params:
 
 ```tsx
-
 	source: string;
 	target: string;
 ```
@@ -47,13 +46,13 @@ response body schema:
 sample request:
 
 ```tsx
-https://knightpath.azurewebsites.net/api/knightpath?source=C1&target=F7
+    https://knightpath.azurewebsites.net/api/knightpath?source=C1&target=F7
 ```
 
 sample response:
 
 ```tsx
-"Operation Id 941ecdd6-44fd-415c-ae7a-619cffc346e7 was created. Please query it to find your results."
+    "Operation Id 941ecdd6-44fd-415c-ae7a-619cffc346e7 was created. Please query it to find your results."
 ```
 
 API 2 endpoint:
@@ -63,7 +62,6 @@ GET https://[...]/knightpath
 query params:
 
 ```tsx
-
 	operationId: string;
 ```
 
@@ -71,7 +69,7 @@ response body schema:
 
 ```tsx
 type KnightPathResponse = {
-	shortestPath: string; (or string[])
+    shortestPath: string; (or string[])
     numberOfMoves: int;
     starting: string;
     ending: string;
@@ -82,7 +80,7 @@ type KnightPathResponse = {
 sample request:
 
 ```tsx
-https://knightpath.azurewebsites.net/api/knightpath?operationId=941ecdd6-44fd-415c-ae7a-619cffc346e7
+    https://knightpath.azurewebsites.net/api/knightpath?operationId=941ecdd6-44fd-415c-ae7a-619cffc346e7
 ```
 
 sample response:
