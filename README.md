@@ -100,4 +100,4 @@ sample response:
 Email dev@venteur.co with the following:
 1. Github repo link of the project
 2. Link to the hosted serverless compute application
-3. (Optional) Paragraph on implementation choices or any notes while reviewing the project
+3. Explain in a few paragraphs your key design choices and implementation and any notes you deem relevant while for us toreview your project.
