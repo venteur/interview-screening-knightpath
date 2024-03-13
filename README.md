@@ -2,7 +2,7 @@
 
 Congrats on making it to our technical evaluation!  To help us understand your capabilities with our back-end technologies, we've put together a small project.
 
-Your task is to create 3 serverless compute functions (azure function, AWS lambda, or anything else you prefer) that will help solve a small chess problem asynchronously.
+Your task is to create 3 serverless compute functions (One to create the request, one to process the request and one to return the results) that will help solve a small chess problem asynchronously (You can use Azure function, AWS lambda, or anything else you prefer).
 
 If you don't play chess no worries you only need to know how a knight moves (https://en.wikipedia.org/wiki/Knight_(chess))
 
@@ -17,7 +17,7 @@ You are expected to build and deploy working functions.  This work has been desi
 
 ## Requirements
 
-1. You should use 3 separate serverless compute (One to create the request, one to process the request and one to return the results).
+1. You should use 3 separate serverless compute.
 2. After receiving the positions in a first function you should trigger the second function to calculate the moves asynchronously.
 3. You should handle and display the errors appropriately.
 4. You should use a storage to keep the data you have calculated.
