@@ -11,7 +11,7 @@ The user flow as follows:
 1. User calls the first API with the start and end postion of the knight and gets back a tracking Id.
 2. User calls the second API with the tracking id and receives a response showing the shortest path for the knight as well as the number of moves.
 
-Here is a demo (using postman to call deployed solution) to make it more clear (https://dev.azure.com/Venteur/Venteur/_git/interview-screening-knightpath-starter?path=/TakeHome-KnightPath.postman_collection.json).
+Here is a [demo (using postman to call deployed solution)](TakeHome-KnightPath.postman_collection.json) to make it more clear.
 
 You are expected to build and deploy working functions.  This work has been designed to be no more than a couple of hours from start to finish. Below are various details that you may find helpful in completing the project.
 
