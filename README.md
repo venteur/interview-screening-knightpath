@@ -97,7 +97,7 @@ sample response:
 
 ## Submission
 
-Email dev@venteur.co with the following:
+Please "reply all" to the thread that sent you this assessment invitation. In your reply, include the following:
 1. Github repo link of the project
 2. Link to the hosted serverless compute application
-3. In a few paragrpahs, explain your key design choices and implementation. Include any notes you wish to let us know about review your project.
+3. In a few paragraphs, explain your key design choices and implementation. Include any notes you wish to let us know as we review your project.
