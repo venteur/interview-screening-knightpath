@@ -12,7 +12,9 @@ The user flow as follows:
 2. User calls the second API with the tracking id and receives a response showing the shortest path for the knight as well as the number of moves.
 
 Below an image to illustrate the pattern that is expected:
-![image](https://github.com/venteur/interview-screening-knightpath/assets/138028337/89982c45-f359-4675-8745-3e2894df8850)
+
+![Pattern](https://github.com/venteur/interview-screening-knightpath/assets/138028337/221f3e63-456b-4151-9dd0-f23841c43f77)
+
 
 Note that finding the shortest path for a knight on a chessboard is not exactly an intensive time-consuming task but we are are just using it as an example to use this asynchronous pattern.
 
